@@ -1,21 +1,21 @@
 // DOM Document Object Model
 
+// The first way
+
 //User 1 
-const listUsers00 = document.getElementById('list').children[0].innerText;
-console.log(listUsers00);
+console.log(document.getElementById('list').children[0].innerText);
 
 //User 2 
-const listUsers04 = document.getElementById('list').children[4].innerText;
-console.log(listUsers04);
+console.log(document.getElementById('list').children[4].innerText);
 
 //User 3 
-const listUsers01 = document.getElementById('list').children[1].innerText;
-console.log(listUsers01);
+console.log(document.getElementById('list').children[1].innerText);
 
 //User 4 
-const listUsers03 = document.getElementById('list').children[3].innerText;
-console.log(listUsers03);
+console.log(document.getElementById('list').children[3].innerText);
 
 //User 5 
-const listUsers02 = document.getElementById('list').children[2].innerText;
-console.log(listUsers02);
+console.log(document.getElementById('list').children[2].innerText);
+
+// The second way 
+
