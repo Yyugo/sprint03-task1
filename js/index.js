@@ -19,3 +19,8 @@ console.log(document.getElementById('list').children[2].innerText);
 
 // The second way 
 
+const listEls = document.getElementById("list").children;
+const listElsContent = Array.from(listEls).map(el => {
+  return el.innerText;
+});
+console.log(`${listElsContent[0]} ${listElsContent[4]} ${listElsContent[1]} ${listElsContent[3]} ${listElsContent[2]}`);
